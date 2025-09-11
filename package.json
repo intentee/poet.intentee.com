@@ -14,8 +14,6 @@
     "eslint": "^9.33.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "fs-extra": "^11.3.1",
-    "jarmuz": "^0.8.0",
-    "jarmuz-preset-poet": "^0.4.0",
     "node-notifier": "^10.0.1",
     "prettier": "^3.6.2",
     "prettier-plugin-organize-imports": "^4.2.0",
@@ -30,6 +28,8 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "idiomorph": "^0.7.3",
+    "jarmuz": "^0.8.0",
+    "jarmuz-preset-poet": "^0.4.0",
     "js-toml": "^1.0.2",
     "nanoid": "^5.1.5",
     "react": "^19.1.1",
