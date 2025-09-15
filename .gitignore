@@ -1,3 +1,4 @@
+.DS_Store
 /assets
 /esbuild-meta.json
 /node_modules

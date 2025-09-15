@@ -5,7 +5,7 @@ title = "Collections navigation"
 
 [[collection]]
 name = "docs"
-after = "static-site-generator/building-blocks/index"
+after = "static-site-generator/building-blocks/front-matter"
 parent = "static-site-generator/building-blocks/index"
 
 [[collection]]

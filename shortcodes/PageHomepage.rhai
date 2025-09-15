@@ -21,7 +21,7 @@ fn template(context, props, content) {
             <h2>Why?</h2>
             <p>
               According to the
-              <a href="https://survey.stackoverflow.co/2025/stack-overflow#participation-and-feedback-so-dev-content">StackOverflow Developer Survey</a>
+              <a href="https://survey.stackoverflow.co/2025/stack-overflow#participation-and-feedback-so-dev-content">StackOverflow Developer Survey</a>,
               most developers prefer both interactive formats and long-form articles when learning new technologies. Why not provide both in one go?
             </p>
           </div>

@@ -65,7 +65,7 @@ fn template(context, props, content) {
                   >
                     Templating Engine
                   </a>
-                  <a
+                  {/* <a
                     href={context.link_to("#consistency-guard-initial-page")}
                     class={clsx(#{
                       "page-navigation__link": true,
@@ -74,9 +74,9 @@ fn template(context, props, content) {
                     })}
                   >
                     Consistency Guard
-                  </a>
+                  </a>*/}
                 </LayoutMinimalDropdown>
-                <LayoutMinimalDropdown
+                {/* <LayoutMinimalDropdown
                   collection="leverage_content"
                   href={context.link_to("#mcp-initial-page")}
                   label="Leverage content"
@@ -108,8 +108,8 @@ fn template(context, props, content) {
                   >
                     LLM SEO
                   </a>
-                </LayoutMinimalDropdown>
-                <LayoutMinimalDropdown
+                </LayoutMinimalDropdown>*/}
+                {/* <LayoutMinimalDropdown
                   collection="analyze_content"
                   href={context.link_to("#nlp-initial-page")}
                   label="Analyze content"
@@ -123,7 +123,7 @@ fn template(context, props, content) {
                   >
                     Natural Language Processing
                   </a>
-                </LayoutMinimalDropdown>
+                </LayoutMinimalDropdown>*/}
               </div>
             </div>
             <a
