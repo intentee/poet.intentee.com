@@ -34,7 +34,7 @@ Two fields are required in the front matter:
 - `title` - The title of the page, which will be displayed in the browser tab and as the main heading on the page
 - `layout` - The layout to use for the page
 
-You can read more about the possible fields in the [Front matter](static-site-generator/building-blocks/front-matter) article.
+You can read more about the possible fields in the [Front matter](static-site-generator/references/front-matter) article.
 
 ## Layouts
 

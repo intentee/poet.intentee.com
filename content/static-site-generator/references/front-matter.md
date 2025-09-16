@@ -5,8 +5,8 @@ title = "Front matter"
 
 [[collection]]
 name = "docs"
-after = "static-site-generator/building-blocks/index"
-parent = "static-site-generator/building-blocks/index"
+after = "static-site-generator/references/index"
+parent = "static-site-generator/references/index"
 
 [[collection]]
 name = "create_content"
