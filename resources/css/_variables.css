@@ -28,6 +28,7 @@
   --z-index-primary-navigation: 3;
   --z-index-primary-navigation-dropdown: 4;
   --z-index-modal: 5;
+  --z-index-cat: 6;
 
   @media (max-width: 1650px) {
     --font-size-h1: 32px;

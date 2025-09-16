@@ -35,6 +35,17 @@ fn template(context, props, content) {
         {context.assets.render()}
       </head>
       <body>
+        <video
+          autoplay
+          class="page-cat"
+          data-poet-permanent
+          disablepictureinpicture
+          loop
+          muted
+          playsinline
+        >
+          <source src={context.assets.file("resources/media/cat.webm")} type="video/webm">
+        </video>
         <div class="page">
           <nav class="page-navigation">
             <div class="page-navigation__track">

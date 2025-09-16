@@ -4,11 +4,41 @@
 @import url("./_syntax-highlighting.css");
 @import url("./_variables.css");
 
+@keyframes peek {
+  0% {
+    transform: translateY(100%);
+  }
+  40% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
 .page {
   display: grid;
   grid-template-areas: "navigation" "main" "footer";
   grid-template-rows: auto 1fr auto;
   min-height: 100dvh;
+}
+
+.page-cat {
+  animation-duration: 60s;
+  animation-name: peek;
+  bottom: 0;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  user-select: none;
+  width: 250px;
+  z-index: var(--z-index-cat);
 }
 
 .page-footer {
