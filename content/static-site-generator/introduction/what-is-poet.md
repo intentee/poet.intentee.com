@@ -1,4 +1,5 @@
 +++
+id = "static-site-generator-initial-page"
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "What is Poet?"

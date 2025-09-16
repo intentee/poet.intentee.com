@@ -25,4 +25,4 @@ cargo +nightly install poet
 ## Install via prebuilt binaries
 *Coming soon.*
 
-You will also be able to download the binary file to install Poet with no other dependencies form our GitHub release page.
+You will also be able to download the binary file to install Poet with no other dependencies from our GitHub release page.

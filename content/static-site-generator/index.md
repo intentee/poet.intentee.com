@@ -1,7 +1,7 @@
 +++
-id = "static-site-generator-initial-page"
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
+render = false
 title = "Static site generator"
 
 [[collection]]

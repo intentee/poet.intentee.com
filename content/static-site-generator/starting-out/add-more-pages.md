@@ -14,6 +14,22 @@ name = "create_content"
 
 Let's now see how to add more pages to the project, for example, a simple "About us" page. We will create a separate layout, a markdown page, and a CSS file, and see how it all works together.
 
+At the end of this process, the project structure will look like this:
+
+```
+my-poet-project/
+├─ content/
+│  ├─ about.md <- new file
+│  ├─ index.md
+├─ resources/
+│  ├─ css/
+│  │  ├─ layout-minimal.css
+│  │  ├─ page-about.css <- new file
+├─ shortcodes/
+│  ├─ LayoutMinimal.rhai
+│  ├─ PageAbout.rhai
+```
+
 ## Creating a layout
 
 The layout for the "About us" follows the same rules as the `LayoutMinimal` - it needs a `template` function and the `component` block to place the content of the page. A basic layout for the "About us" page can be called `PageAbout`. It needs to have the `.rhai` file extension and be located inside the `/shortcodes` directory. Here's what it could look like:
