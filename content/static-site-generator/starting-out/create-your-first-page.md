@@ -76,9 +76,7 @@ fn template(context, props, content) {
       </head>
       <body>
         <div class="page">
-          <h1 class="page-title">
-            Hello, Poet!
-          </h1>
+          {content}
         </div>
       </body>
     </html>
