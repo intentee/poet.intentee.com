@@ -8,13 +8,13 @@
   0% {
     transform: translateY(100%);
   }
-  40% {
+  45% {
     transform: translateY(100%);
   }
   50% {
     transform: translateY(0);
   }
-  60% {
+  55% {
     transform: translateY(100%);
   }
   100% {
@@ -30,7 +30,8 @@
 }
 
 .page-cat {
-  animation-duration: 60s;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
   animation-name: peek;
   bottom: 0;
   pointer-events: none;
