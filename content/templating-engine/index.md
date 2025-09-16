@@ -1,6 +1,6 @@
 +++
-id = "templating-engine-initial-page"
 layout = "LayoutDocumentationPage"
+render = false
 title = "Templating engine"
 
 [[collection]]
