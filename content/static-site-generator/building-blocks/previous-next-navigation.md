@@ -1,7 +1,7 @@
 +++
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
-title = "Previous / Next navigation"
+title = "Previous/Next navigation"
 
 [[collection]]
 name = "docs"
@@ -12,7 +12,7 @@ parent = "static-site-generator/building-blocks/index"
 name = "create_content"
 +++
 
-In this article, we'll cover creating a previous / next navigation for your markdown pages. It is typically  something that you place at the bottom of your content pages, to help users quickly navigate through related content items (it's especially useful on mobile!).
+In this article, we'll cover creating a previous/next navigation for your markdown pages. It is typically  something that you place at the bottom of your content pages, to help users quickly navigate through related content items (it's especially useful on mobile!).
 
 This navigation feature builds on Poet's collection system, which you can learn more about in our [Collections navigation](static-site-generator/building-blocks/collections-navigation) article. The previous/next links follow the order you've defined for your content in the collection.
 
@@ -25,7 +25,7 @@ Here's what we'll be building:
 
 ## Create a layout with the previous / next navigation
 
-First, we will define the menu_hierarchy variable so we can find the previous and next pages in the collection sequence.
+First, we will define the `menu_hierarchy` variable so we can find the previous and next pages in the collection sequence.
 
 ```html label:"rhai"
 let menu_hierarchy = context.primary_collection.hierarchy;

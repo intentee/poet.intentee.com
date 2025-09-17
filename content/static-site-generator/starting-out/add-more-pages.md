@@ -32,7 +32,7 @@ my-poet-project/
 
 ## Creating a layout
 
-The layout for the "About us" follows the same rules as the `LayoutMinimal` - it needs a `template` function and the `component` block to place the content of the page. A basic layout for the "About us" page can be called `PageAbout`. It needs to have the `.rhai` file extension and be located inside the `/shortcodes` directory. Here's what it could look like:
+The layout for the "About us" follows the same rules as the `LayoutMinimal` - it needs a `template` function and the `component { ... }` block to place the content of the page. A basic layout for the "About us" page can be called `PageAbout`. It needs to have the `.rhai` file extension and be located inside the `/shortcodes` directory. Here's what it could look like:
 
 ```html label:"rhai"
 fn template(context, props, content) {
@@ -41,7 +41,7 @@ fn template(context, props, content) {
   component {
     <LayoutMinimal>
       <div class="page page-about">
-        <h1 class="docs__title">
+        <h1 class="title">
           {context.front_matter.title}
         </h1>
         {content}

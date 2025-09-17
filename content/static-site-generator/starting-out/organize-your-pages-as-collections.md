@@ -87,7 +87,7 @@ Next, we'll have the `introduction.md` page that will be the first page in the "
 
 ```markdown
 +++
-layout = "LayoutDocumentation"
+layout = "LayoutDocumentationPage"
 title = "Introduction"
 
 [[collection]]
@@ -105,7 +105,7 @@ Finally, we'll have the `installation.md` page that will be the second page in t
 
 ```markdown
 +++
-layout = "LayoutDocumentation"
+layout = "LayoutDocumentationPage"
 title = "Installation"
 
 [[collection]]
@@ -119,7 +119,7 @@ This is a quick installation setup.
 
 ### Creating the layout
 
-Finally, let's create the `LayoutDocumentation` and the corresponding CSS file for the pages we just created that will render the left-side menu based on the `documentation_pages` collection.
+Finally, let's create the `LayoutDocumentationPage` and the corresponding CSS file for the pages we just created that will render the left-side menu based on the `documentation_pages` collection.
 
 The project structure will now look like this:
 

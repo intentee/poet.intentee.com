@@ -33,11 +33,17 @@ fn template(context, props, content) {
   context.assets.add("resources/css/styles.css");
 
   component {
-    <div class="page">
-      {content}
-    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        {context.assets.render()}
+      </head>
+      <body>
+        {content}
+      </body>
+    </html>
   }
 }
 ```
 
-Adding the CSS file this way results in the CSS file being included in the final HTML output of the page using a `&lt;link&gt;` tag in the `&lt;head&gt;` section or anywhere else you decide to add the assets using the `context.assets.add()` function.
+Adding the file this way results in this file being included in the final HTML output of the page using a `&lt;link&gt;` tag in the `&lt;head&gt;` section or anywhere else you decide to render the assets using the `context.assets.render()` function.

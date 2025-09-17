@@ -242,7 +242,9 @@ The markdown pages have metadata fields in the `[[collection]]` section in their
 - `parent` - defines the hierarchical relationships (which document is treated as a parent of which other documents)
 - `after` - defines the order of the items inside a given level of the hierarchy (which document should be displayed after which other document)
 
-Poet takes these parent/after relationships and creates a topologically sorted hierarchy. This hierarchy is then available in the layout code via `context.primary_collection.hierarchy`. Thanks to the topological sorting, we ensure that:
+Poet takes these parent/after relationships and creates a topologically sorted hierarchy. This hierarchy is then available in the layout code via `context.primary_collection.hierarchy`. 
+
+Thanks to the topological sorting, we ensure that:
 
 - All dependencies are resolved (parents come before their children)
 - The order of the items is consistent with the `after` relationships defined in the front matter
