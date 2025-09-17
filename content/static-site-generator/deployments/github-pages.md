@@ -1,3 +1,20 @@
++++
+layout = "LayoutDocumentationPage"
+primary_collection = "docs"
+title = "GitHub Pages"
+
+[[collection]]
+name = "docs"
+after = "static-site-generator/deployments/index"
+parent = "static-site-generator/deployments/index"
+
+[[collection]]
+name = "create_content"
++++
+
+If you started your Poet project from one of our templates ([template minimal](https://github.com/intentee/poet-template-minimal) or [template docs](https://github.com/intentee/poet-template-docs)), you can use the script below to deploy your site to GitHub Pages:
+
+```yaml
 name: Deploy Poet to GitHub Pages
 
 on:
@@ -48,3 +65,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+```

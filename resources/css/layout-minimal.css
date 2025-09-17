@@ -8,13 +8,13 @@
   0% {
     transform: translateY(100%);
   }
-  45% {
+  47% {
     transform: translateY(100%);
   }
   50% {
     transform: translateY(0);
   }
-  55% {
+  53% {
     transform: translateY(100%);
   }
   100% {
@@ -30,7 +30,7 @@
 }
 
 .page-cat {
-  animation-duration: 120s;
+  animation-duration: 240s;
   animation-iteration-count: infinite;
   animation-name: peek;
   bottom: 0;
@@ -40,6 +40,11 @@
   user-select: none;
   width: 250px;
   z-index: var(--z-index-cat);
+}
+
+.page-cat.page-cat--always-visible {
+  animation: unset;
+  transform: translateY(0);
 }
 
 .page-footer {

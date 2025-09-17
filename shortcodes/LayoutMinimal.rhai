@@ -11,6 +11,7 @@ fn template(context, props, content) {
       <head>
         <link rel="canonical" href={context.reference.canonical_link}>
         <link rel="icon" href={context.assets.file("resources/media/favicon.svg")}>
+        <link rel="preload" href={context.assets.file("resources/media/cat.webm")} as="video">
 
         <meta charset="UTF-8">
         <meta name="turbo-refresh-method" content="morph">
@@ -37,7 +38,11 @@ fn template(context, props, content) {
       <body>
         <video
           autoplay
-          class="page-cat"
+          class={if "always_show_cat" in props && props.always_show_cat {
+            "page-cat page-cat--always-visible"
+          } else {
+            "page-cat"
+          }}
           data-poet-permanent
           disablepictureinpicture
           loop

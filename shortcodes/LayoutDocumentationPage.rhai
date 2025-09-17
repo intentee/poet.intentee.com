@@ -58,7 +58,7 @@ fn template(context, props, content) {
   let menu_hierarchy = context.primary_collection.hierarchy;
 
   component {
-    <LayoutMinimal>
+    <LayoutMinimal always_show_cat={"always_show_cat" in props && props.always_show_cat}>
       <div class="documentation-page">
         <div class="documentation-page__menu">
           <input id="documentation-page-menu-toggle" type="checkbox">
