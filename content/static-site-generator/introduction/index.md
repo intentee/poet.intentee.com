@@ -1,4 +1,5 @@
 +++
+description = "Learn what Poet is and how to install it."
 layout = "LayoutDocumentationPage"
 render = false
 title = "Introduction"

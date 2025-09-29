@@ -1,4 +1,5 @@
 +++
+description = "Create shortcode files to build layouts for your markdown pages and create reusable components."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Shortcodes"

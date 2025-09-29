@@ -1,4 +1,5 @@
 +++
+description = "Create reusable components using shortcodes that work identically in both markdown files and layouts."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Repeatable components"

@@ -1,4 +1,5 @@
 +++
+description = "Create internal links to your content pages by using simplified Markdown syntax."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Internal links"

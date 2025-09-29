@@ -1,4 +1,5 @@
 +++
+description = "Use a ready to use script to deploy your project to GitHub Pages."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "GitHub Pages"

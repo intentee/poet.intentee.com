@@ -1,4 +1,5 @@
 +++
+description = "Group related content by organizing markdown pages into collections to define hierarchies without folders, create navigation menus, and manage page ordering."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Organize your pages as collections"

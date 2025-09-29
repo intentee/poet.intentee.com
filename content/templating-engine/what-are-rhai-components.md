@@ -1,4 +1,5 @@
 +++
+description = "Understand how Poet extends Rhai scripting language by introducing the component block and learn more about Rhai."
 id = "templating-engine-initial-page"
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"

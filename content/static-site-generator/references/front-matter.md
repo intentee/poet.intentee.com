@@ -1,4 +1,5 @@
 +++
+description = "Configure the front matter for your content pages by defining required and optional fields, as well as collection sections to build page navigations."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Front matter"
@@ -21,14 +22,14 @@ layout = "DefaultLayout"
 +++
 ```
 
-Two fields are required in the front matter:
+Three fields are required in the front matter:
 
 - `title` - The title of the page, which will be displayed in the browser tab and as the main heading on the page
+- `description` - A description of the page. You can then use it, for example, as the description in the meta tags
 - `layout` - The layout to use for the page
 
 Optionally, you can define:
 
-- `description` - A description of the page. You can then use it, for example, as the description in the meta tags
 - `id` - An identifier for the page, which can be used for internal linking (for example, add id = "example-page" to the front matter and link to this page using: `{context.link_to("#example-page")}`)
 - `primary_collection` - Used to indicate the primary collection for the page when it belongs to multiple collections
 - `props` - A table of additional properties that can be used in the layout

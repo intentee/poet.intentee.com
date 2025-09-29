@@ -1,4 +1,5 @@
 +++
+description = "Organize assets in the appropriate directories, add them to the layout files, and render them in the desired locations."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Where to put CSS, JS, and other assets"

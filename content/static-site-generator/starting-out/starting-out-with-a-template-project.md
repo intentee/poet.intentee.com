@@ -1,4 +1,5 @@
 +++
+description = "Start your first Poet project by copying a GitHub template and running the local development server."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Starting out with a template project"

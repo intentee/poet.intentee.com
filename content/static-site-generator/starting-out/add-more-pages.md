@@ -1,4 +1,5 @@
 +++
+description = "Expand your project by adding more markdown pages with custom layouts, nest your layouts, and attach page-specific CSS."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Add more pages"

@@ -1,4 +1,5 @@
 +++
+description = "Render different types of assets with Poet's asset management system deeply integrated with esbuild."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Assets, images, files"

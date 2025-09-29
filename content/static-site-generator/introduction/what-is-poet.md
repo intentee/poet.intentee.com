@@ -1,5 +1,6 @@
 +++
 id = "static-site-generator-initial-page"
+description = "On overview of Poet static site generator with custom JSX-like syntax based on Rhai scripting language."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "What is Poet?"

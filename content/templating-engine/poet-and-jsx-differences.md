@@ -1,4 +1,5 @@
 +++
+description = "Learn about the biggest differences between JSX and Poet's syntax by comparing code examples written in JSX and Poet."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Poet and JSX differences"

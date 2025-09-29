@@ -1,4 +1,5 @@
 +++
+description = "Add CSS styling to Poet pages: where to place CSS files and how to include them in your layouts."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Style your content"

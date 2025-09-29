@@ -1,4 +1,5 @@
 +++
+description = "Display previous/next navigation links on your pages based on the after field in the front matter and using before and after functions in the layout file."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Previous/Next navigation"

@@ -1,4 +1,5 @@
 +++
+description = "Dive deep into Poet's features such as front matter, shortcodes, asset management, and live reload."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 render = false

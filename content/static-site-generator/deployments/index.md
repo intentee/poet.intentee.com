@@ -1,4 +1,5 @@
 +++
+description = "Deploy your static site created with Poet."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 render = false

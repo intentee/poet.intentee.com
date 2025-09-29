@@ -1,4 +1,5 @@
 +++
+description = "Create your first Poet project with guided tutorials covering GitHub templates, creating pages, organizing content into collections, and applying custom styles."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 render = false

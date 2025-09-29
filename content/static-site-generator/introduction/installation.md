@@ -1,5 +1,6 @@
 +++
 id = "install"
+description = "Install Poet via Cargo or prebuilt binaries."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Installation"

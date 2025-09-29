@@ -1,4 +1,5 @@
 +++
+description = "Pass data to components using props for customization, including front matter props that cascade through layouts."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Using props"

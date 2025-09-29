@@ -1,4 +1,5 @@
 +++
+description = "Display a table of contents navigation based on the headings from your markdown page."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Table of contents"

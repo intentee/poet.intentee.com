@@ -1,4 +1,5 @@
 +++
+description = "Build your first page in Poet and learn about content organization, TOML front matter minimal configuration, and creating layouts for your content."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Create your first page"
@@ -29,9 +30,10 @@ title = "Poet"
 +++
 ```
 
-Two fields are required in the front matter:
+Three fields are required in the front matter:
 
 - `title` - The title of the page, which will be displayed in the browser tab and as the main heading on the page
+- `description` - A description of the page. You can then use it, for example, as the description in the meta tags
 - `layout` - The layout to use for the page
 
 You can read more about the possible fields in the [Front matter](static-site-generator/references/front-matter) article.

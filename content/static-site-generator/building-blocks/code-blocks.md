@@ -1,4 +1,5 @@
 +++
+description = "Display code blocks in your markdown files."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Code blocks"

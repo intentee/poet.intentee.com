@@ -1,4 +1,5 @@
 +++
+description = "Build navigation menus with ordered items by organizing your content into collections and creating a layout file that renders the navigation menu on the page."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Collections navigation"

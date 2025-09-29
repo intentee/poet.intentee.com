@@ -1,4 +1,5 @@
 +++
+description = "Create diverse content structures, including different types of navigation, table of contents, internal links, code blocks, assets, and repeatable components."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 render = false

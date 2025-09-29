@@ -1,4 +1,5 @@
 +++
+description = "Manage assets by using Poet's asset management system integrated with esbuild, add assets in the shortcode files with preload tags and cache-busting hashes, render assets in HTML documents, and return paths to your files."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Managing assets"

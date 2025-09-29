@@ -1,4 +1,5 @@
 +++
+description = "Add and render a live reload script to automatically refresh the browser when you make changes to your files. Exclude specific content from being reloaded."
 layout = "LayoutDocumentationPage"
 primary_collection = "docs"
 title = "Live reload"
