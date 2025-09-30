@@ -31,6 +31,7 @@ Three fields are required in the front matter:
 Optionally, you can define:
 
 - `id` - An identifier for the page, which can be used for internal linking (for example, add id = "example-page" to the front matter and link to this page using: `{context.link_to("#example-page")}`)
+- `last_updated_at` - A UTC timestamp indicating when the page was last updated
 - `primary_collection` - Used to indicate the primary collection for the page when it belongs to multiple collections
 - `props` - A table of additional properties that can be used in the layout
 - `render` - If set to false, the page will not be rendered (which can be used for index pages)
