@@ -182,6 +182,12 @@ fn template(context, props, content) {
               >
                 <img alt="X" src={context.assets.file("resources/media/logo-x.svg")}>
               </a>
+              <a
+                href="https://www.youtube.com/@intentee"
+                target="_blank"
+              >
+                <img alt="YoutTube" src={context.assets.file("resources/media/logo-yt.svg")}>
+              </a>
             </div>
           </footer>
         </div>
