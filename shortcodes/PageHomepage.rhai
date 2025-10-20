@@ -4,9 +4,6 @@ fn template(context, props, content) {
   component {
     <LayoutMinimal>
       <div class="homepage">
-        <div class="homepage__product-name">
-          Poet - Developed by <a href="https://intentee.com">Intentee</a>
-        </div>
         <h1 class="homepage__title">
           Make your docs accessible in AI tools
         </h1>
@@ -15,6 +12,12 @@ fn template(context, props, content) {
             <h2>What is it?</h2>
             <p>
               Poet is a static site generator with LLM SEO features, RAG, and a built-in MCP server.
+            </p>
+          </div>
+          <div class="homepage__details__section">
+            <h2>Who made this?</h2>
+            <p>
+              This is an open-source project originally started by <a href="https://intentee.com">Intentee</a>.
             </p>
           </div>
           <div class="homepage__details__section">
