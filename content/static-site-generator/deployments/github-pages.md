@@ -6,7 +6,7 @@ title = "GitHub Pages"
 
 [[collection]]
 name = "docs"
-after = "static-site-generator/deployments/index"
+after = "static-site-generator/deployments/generating-static-pages"
 parent = "static-site-generator/deployments/index"
 
 [[collection]]
@@ -46,7 +46,7 @@ jobs:
       - name: Install Poet
         uses: taiki-e/cache-cargo-install-action@v2
         with:
-          tool: poet@0.3.0
+          tool: poet@0.4.0
 
       - name: Build with Poet
         run: make public

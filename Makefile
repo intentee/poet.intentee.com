@@ -14,7 +14,7 @@ node_modules: package-lock.json
 	touch node_modules
 
 public: node_modules
-	./jarmuz-generate.mjs
+	./jarmuz-make-static-pages.mjs
 
 # -----------------------------------------------------------------------------
 # Phony targets
