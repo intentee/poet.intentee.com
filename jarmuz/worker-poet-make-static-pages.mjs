@@ -2,7 +2,7 @@ import { spawner } from "jarmuz/job-types";
 
 spawner(function ({ baseDirectory, command }) {
   return command(`
-      poet generate ${baseDirectory}
+      poet make static-pages ${baseDirectory}
         --public-path https://poet.intentee.com/
         --output-directory public
     `);
