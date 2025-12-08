@@ -49,7 +49,7 @@ jobs:
           tool: poet@0.4.0
 
       - name: Build with Poet
-        run: make public
+        run: poet make static-pages . --output-directory ./public --public-path "https://example.com/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

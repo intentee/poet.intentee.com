@@ -20,7 +20,7 @@ poet make static-pages <source_directory> --output-directory <output_dir> --publ
 
 For example:
 ```bash
-poet make static-pages . --output-directory ./public --public-path "/"
+poet make static-pages . --output-directory ./public --public-path "https://example.com/"
 ```
 
 ## Parameters
