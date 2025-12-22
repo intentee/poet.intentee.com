@@ -17,13 +17,14 @@ name = "create_content"
 Poet is a Rust application distributed as a single binary with no runtime dependencies.
 
 ## Install via Cargo
-You can install Poet from Cargo (requires Rust and Nightly) by running:
+You can install Poet from Cargo by running:
+
+```bash
+cargo install poet
+```
+
+If you encounter issues with the standard installation, try using the Nightly toolchain:
 
 ```bash
 cargo +nightly install poet
 ```
-
-## Install via prebuilt binaries
-*Coming soon.*
-
-You will also be able to download the binary file to install Poet with no other dependencies from our GitHub release page.
